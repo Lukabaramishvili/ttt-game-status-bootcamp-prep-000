@@ -62,7 +62,7 @@ def winner(board)
     return nil
   elsif board[0] == "X"
   return "X"
-  else
+  elsif board[0] == "O"
     return "O"
   end
 end
