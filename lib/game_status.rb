@@ -35,6 +35,11 @@ WIN_COMBINATIONS = [
   return false
 end
 
+def full?(board)
+    
+  
+end
+
       
   
   
