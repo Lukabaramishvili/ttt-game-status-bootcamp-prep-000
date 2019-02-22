@@ -42,10 +42,11 @@ def full?(board)
 end
 
 def daw?(board)
-  if full?(board) && won?(board)
-    return fal
+  if full?(board) && !won?(board)
+    return true
   else
-    false
+    return false
+  end
 end
       
   
