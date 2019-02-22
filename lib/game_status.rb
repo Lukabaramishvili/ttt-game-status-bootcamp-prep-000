@@ -59,13 +59,7 @@ end
 
 def winner(board)
   index = won?(board)
-  if won?(board) == false
-    return nil
-  elsif index[0] == "O"
-  return "O"
-else
-  return "X"
-end
+  if 
 end
       
   
