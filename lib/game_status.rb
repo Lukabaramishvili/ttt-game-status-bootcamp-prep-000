@@ -37,7 +37,7 @@ end
 
 def full?(board)
   
-  each.board {|combo| combo == "X" || combo}
+  board.all? {|combo| combo == "X" || combo == "O"}
   
 end
 
