@@ -36,7 +36,9 @@ WIN_COMBINATIONS = [
 end
 
 def full?(board)
-    
+  
+  each.board do |combo|
+    combo.all?
   
 end
 
