@@ -41,7 +41,7 @@ def full?(board)
 
 end
 
-def daw?(board)
+def draw?(board)
   if full?(board) && !won?(board)
     return true
   else
