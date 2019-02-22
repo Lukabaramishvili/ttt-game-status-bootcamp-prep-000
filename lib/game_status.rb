@@ -60,12 +60,10 @@ end
 def winner(board)
   if won?(board) == false
     return nil
-  elsif board[0] == "X"
-  return "X"
-  elsif board[0] == "O"
-    return "O"
   else
-    return false
+    if board[0] == "X"
+      return "X"
+    else
   end
 end
       
