@@ -41,6 +41,9 @@ def full?(board)
 
 end
 
+def daw?(board)
+  
+end
       
   
   
